@@ -27,5 +27,9 @@ object App {
 
     betterPurchase.write.avro("src/main/resources/output/avro")
     betterPurchase.write.json("src/main/resources/output/json")
+    betterPurchase.write
+      .format("com.databricks.spark.csv")
+      .option("header", "true")
+      .save("src/main/resources/output/csv/")
   }
 }
