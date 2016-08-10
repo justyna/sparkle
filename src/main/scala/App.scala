@@ -13,7 +13,7 @@ object App {
     val sqlContext = new org.apache.spark.sql.SQLContext(sc)
     import sqlContext.implicits._
 
-   val df = sqlContext.read.format("json").load("src/main/resources/")
+    val df = sqlContext.read.format("json").load("src/main/resources/")
     df.registerTempTable("df")
     val purchase = df.select($"id", $"firstName", $"lastName",  explode($"purchase")).as("purchase")
     System.out.println(Console.BLUE)
