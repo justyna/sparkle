@@ -1,0 +1,10 @@
+{ "id": 0, "firstName": "Joanna", "lastName": "Kloc", "purchase": [{"name": "kurtka", "price": 128.90}]}
+{ "id": 1, "firstName": "Jan", "lastName": "Babka", "purchase": [{"name": "kurtka", "price": 128.90}, {"name": "parasol", "price":50.60}]}
+{ "id": 2, "firstName": "Filomena", "lastName": "Ogrodowa", "purchase": [{"name": "parasol", "price": 50.60}]}
+{ "id": 3, "firstName": "Joanna", "lastName": "Kloc", "purchase": [{"name": "wiadro", "price": 10.00}, {"name": "klapki", "price": 40.00} ]}
+{ "id": 4, "firstName": "Kosma", "lastName": "Kloc", "purchase": [{"name": "kwiatek", "price": 7.00}, {"name": "klapki", "price": 40.00} ]}
+{ "id": 5, "firstName": "Agata", "lastName": "Hetman", "purchase": [{"name": "wiadro", "price": 10.00}, {"name": "klapki", "price": 40.00}, {"name": "kwiatki", "price": 7.00} ]}
+{ "id": 6, "firstName": "Lech", "lastName": "Zenon", "purchase": [{"name": "wiadro", "price": 10.00}, {"name": "klapki", "price": 40.00} ]}
+{ "id": 7, "firstName": "Ewa", "lastName": "Aronia", "purchase": [{"name": "doniczka", "price": 25.00}, {"name":  "klapki", "price": 40.00} ]}
+{ "id": 8, "firstName": "Joanna", "lastName": "Kloc", "purchase": [{"name": "parasol", "price": 50.60}, {"name": "kurtka", "price": 128.90} ]}
+{ "id": 9, "firstName": "Julia", "lastName": "Motyl", "purchase": [{"name": "drzewo", "price": 210.00} ]}
